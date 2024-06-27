@@ -1,0 +1,29 @@
+.button a{
+    background-color: #264BA2;
+    color: white;
+}
+.slider-1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../images/istockphoto-1479824277-170667a.webp) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-2{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../images/istockphoto-1713586910-170667a.webp) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-3{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../images/photo-1544717305-2782549b5136.avif) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-text{
+    background-color: rgba(87,115,236,0.679);
+    border-radius: 5px;
+}
+.slider-text h5 span{
+    color: rgb(1,1,37);
+}
+
+@media(max-width: 600px){
+    .button{
+        text-align: center;
+    }
+}
